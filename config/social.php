@@ -12,10 +12,21 @@ return array(
     'ins_link' => 'http://instagram.com/app',
     
     'twitter' => array(
+        // login 
+        // create app https://apps.twitter.com/
+        // tab "Settings"
+        // set "Allow this application to be used to Sign in with Twitter"
+        // set Callback URL http://www.app.cz/account/twittercallback/ 
+        // tab "Keys and Access Tokens"
+        // click on create access tokens, get Access Token, Access Token Secret        
+        // login
         'oauth' => array(
             'consumer_key' => '',
-            'consumer_secret' => '',         
+            'consumer_secret' => '',    
+            'oauth_token' => '',
+            'oauth_token_secret' => '',
         ),
+        // posts
         'posts_twitter' => array(
             'base' => 'https://twitter.com/app',
             'consumer_key' => '',
